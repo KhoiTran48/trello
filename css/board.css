@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between
+}
+.right{
+    flex-grow: 1;
+    margin-left: 150px;
+}
+.board{
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+    margin-left: 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    /* transition:10s all; */
+    overflow: hidden;
+}
+.list-board{
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+}
+.create:active{
+    transform: translate(-2px, 8px);
+}
+.create:active ~ .form{
+    opacity: 0;
+}
+.create:active ~ .overlay{
+    opacity: 1;
+}
+.board:after{
+    content:'kkk';
+    position: absolute;
+    top:110%;
+    left: 110%;
+    transition:.5s all;
+}
+.board:hover{
+    opacity: 0.8;
+}
+.board:hover:after{
+    top: 75%;
+    left: 80%;
+}
+#slt{
+    cursor: pointer;
+}
+.overlay{
+    opacity: 0.1;
+    position: fixed;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,0);
+    z-index: 20;
+    background-color: green;
+    padding:5px 50px 5px 5px;
+}

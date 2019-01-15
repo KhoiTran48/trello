@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/board.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a class="navbar-brand" href="#">Title</a>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Link</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="container form">
+        <div class="left">
+            <ul>
+                <li>
+                    Boards
+                </li>
+                <li>
+                    Home
+                </li>
+                <li>
+                    Team
+                </li>
+                <li>
+                    Create a team
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="recently">
+                <h3>Recently Viewed</h3>
+                <div class="list-board">
+                    <div class="board">Board 1</div>
+                    <div class="board">Board 2</div>
+                    <div class="board">Board 3</div>
+                    <div class="board">Board 4</div>
+                    <div class="board">Board 5</div>
+                    <div class="board">Board 6</div>
+                    <div class="board">Board 7</div>
+                </div>
+            </div>
+            <div class="personal">
+                <h3>Personal Boards</h3>
+                <div class="list-board">
+                    <div class="board">Board 1</div>
+                    <div class="board">Board 2</div>
+                    <div class="board">Board 3</div>
+                    <div class="board">Board 3</div>
+                    <div class="board create">Create new board</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="container">
+        
+        <div class="overlay">
+            
+            <form action="" method="POST" role="form">
+            
+                <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="Add board title">
+                </div>
+                
+                <div class="form-group">
+                        <select name="" id="slt" class="form-control" required="required">
+                            <option value="private">Private</option>
+                            <option value="public">Public</option>
+                        </select>
+                </div>
+                
+            
+                <button type="submit" class="btn btn-primary">Create Board</button>
+            </form>
+            
+        </div>
+        
+    </div>
+    
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
