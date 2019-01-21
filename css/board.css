@@ -64,7 +64,7 @@ body{
     cursor: pointer;
 }
 .overlay{
-    opacity: 0.1;
+    opacity: 1;
     position: fixed;
     top:10%;
     left:50%;

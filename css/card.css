@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.mt{
+    margin-top:50px;
+}
+.card{
+    background-color: #F0D9CF;
+    margin:10px;
+    width: 14%;
+    border-radius: 5px;
+}
+.panel-title{
+    font-weight: bold;
+    cursor: pointer;
+    display: inline;
+}
+.list-card{
+    display: flex;
+}
+.menu-card{
+    float: right;
+}
+.menu-task{
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+.task{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.more-info{
+    margin-top: 5px;
+}
+.add-task{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.form-task{
+    margin-left: 20px;
+    background-color: #F0D9CF;
+    width: 14%;
+}
+textarea {
+    resize: none;
+    overflow: hidden;
+}
+.detail-task{
+    margin-left: 20px;
+    width: 14%;
+    background-color: #F0D9CF;
+    
+}
